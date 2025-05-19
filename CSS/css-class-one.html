@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="English">
+
+<head>
+    <title>Div tags 2 </title>
+    <style>
+        .container {
+            width: 600px;
+            height: 900px;
+            background-color: pink;
+        }
+
+        .box-1 {
+            width: 300px;
+            height: 450px;
+            background-color: lightblue;
+        }
+
+        .box-2 {
+            width: 300px;
+            height: 450px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- in line CSS -->
+    <div style="background-color:pink ;width: 600px; height:600px ;">
+        <div style="background-color:red ;width: 300px; height:300px ;"></div>
+        <div style="background-color :aqua ;width: 300px; height:300px ;"></div>
+    </div>
+    <br>
+    <!-- internal CSS -->
+    <div class="container ">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+    </div>
+</body>
+
+</html>
