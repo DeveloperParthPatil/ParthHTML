@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rowspan In HTML</title>
+    <style>
+        table {
+            height: 600px;
+            width: 100%;
+            background-color:#000000 ;
+        }
+
+        td{
+            height: 200px;
+            width: 200px;
+            text-align: center;
+            background-color: aquamarine;   
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <!-- row two  -->
+        <tr>
+
+            <td>6</td>
+            <td>8</td>
+        </tr>
+        <!-- row three -->
+        <tr>
+            <td>9</td>
+            <td rowspan="2">10</td>
+            <td>11</td>
+            <td rowspan="2">12</td>
+        </tr>
+        <!-- row four -->
+        <tr>
+            <td>13</td>
+            <td>15</td>
+        </tr>
+    </table>
+</body>
+
+</html>
