@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Align Content </title>
+        <style>
+            body{
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+            }
+            .main-container{
+                width:100%;
+                height: 100%;
+                background-color: aquamarine;
+                display: flex;
+                flex-wrap: wrap;
+                align-content: space-around;
+                gap: 25px;
+            }
+            .box-1{
+                width: 20%;
+                height: 20%;
+                background-color: lightcoral;
+            }
+            .box-2{
+                width: 20%;
+                height: 20%;
+                background-color: #AD8B73;
+            }
+            .box-3{
+                width: 20%;
+                height: 20%;
+                background-color:#6096B4;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+            <div class="box-3"></div>
+        </div>
+    </body>
+</html>

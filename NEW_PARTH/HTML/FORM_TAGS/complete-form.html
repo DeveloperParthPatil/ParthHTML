@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <style>
+        body{
+            background-image:url(https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_1280.jpg) ;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+    <title>Complete Form </title>
+</head>
+
+<body>
+    <h1>Complete HTML Form Example </h1>
+
+    <form>
+        <!-- Personal Section -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter Your Full Name">
+            <br>
+            <br>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter Your Email">
+            <br>
+            <br>
+            <label>Password:</label>
+            <input type="password">
+            <br>
+            <br>
+            <label>Age:</label>
+            <input type="number">
+            <br>
+            <br>
+        </fieldset>
+
+        <!-- Contact Section -->
+        <fieldset>
+            <legend> Contact Details </legend>
+            <label>Phone Number:</label>
+            <input type="number" placeholder="123-456-7890">
+            <br>
+            <br>
+            <label>Address:</label>
+            <br>
+            <textarea placeholder="Your Address Here..... "></textarea>
+        </fieldset>
+
+        <!-- Preferences Section -->
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>Preferred Contact Method:</label>
+            <br>
+            <input type="radio"> <label>Email</label>
+            <input type="radio"> <label> Phone</label>
+            <br>
+            <br>
+            <label>Hobbies:</label>
+            <br>
+            <input type="radio"> <label>Reading</label>
+            <input type="radio"><label>Traveling</label>
+            <input type="radio"> <label>Music</label>
+        </fieldset>
+
+        <!-- Additional Section -->
+        <fieldset>
+            <legend>Additional Details</legend>
+            <label> Country:</label>
+            <select>
+                <optgroup label="Sele   ct Your Country">
+                    <option> India</option>
+                    <option> Japan</option>
+                    <option> America</option>
+                    <option> Russia</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label> Upload Resume:</label>
+            <input type="file" placeholder="Choose File">
+            <br>
+            <br>
+            <label>Date Of Birth:</label>
+            <input type="date">
+            <br>
+            <br>                    
+            <label> Favourite Colour:</label>
+            <input type="color">
+            <br>
+            <br>
+            <label> Satisfaction Level:</label>
+            <input type="range">
+        </fieldset>
+
+        <!-- Submit and Reset Sections -->
+        <fieldset>
+            <legend>Submit Your Details</legend>
+            <input type="Submit">
+            <input type="Reset">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
