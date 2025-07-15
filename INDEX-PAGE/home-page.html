@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-container {
+            width: 100%;
+            height: 100%;
+            background-color: #272727;
+            position: fixed;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #272727;
+            display: flex;
+            position: fixed;
+        }
+
+        .head-one {
+            width: 50%;
+            height: 60px;
+            background-color: #272727;
+        }
+
+        .portfolio {
+            color: white;
+            font-size: 20px;
+            margin-left: 120px;
+
+        }
+
+        .head-two {
+            width: 50%;
+            height: 60px;
+            background-color: #272727;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .home {
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+            background-color: transparent;
+        }
+
+        .footer {
+            width: 100%;
+        }
+
+        .foot-one {
+            width: 100%;
+            background-color: #272727;
+            margin-top: 110px;
+        }
+
+        .hello {
+            color: white;
+            font-size: 30px;
+            margin-left: 110px;
+        }
+
+        .name {
+            color: white;
+            font-size: 50px;
+            margin-left: 110px;
+        }
+
+        .full {
+            color: white;
+            font-size: 40px;
+            margin-left: 110px;
+        }
+
+        .section {
+            color: #5DB996;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        button {
+            background-color: none;
+        }
+
+        span:hover {
+            color: white;
+            border-radius: 10px;
+            border: 1px;
+            width: 54px;
+            height: 30px;
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="header">
+            <div class="head-one">
+                <div style="margin-top: 20px;" class="portfolio">
+                    <span>Portfolio.</span>
+                </div>
+            </div>
+            <!-- This is head Navigation -->
+            <div class="head-two">
+                <span class="home">
+                    <a href="home-page.html">
+                        Home
+                    </a>
+                </span>
+                <span class="home">
+                    <a href="about.html">
+                        About
+                    </a>
+                </span>
+                <span class="home">
+                    <a href="project.html">
+                        Project
+                    </a>
+                </span>
+                <span class="home">
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="foot-one">
+                <h1 class="hello">Hello It's Me</h1>
+                <h1 class="name"> Parth Patil</h1>
+                <h1 class="full"> And I'm <span class="section">Full Stack Developer </span> </h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
